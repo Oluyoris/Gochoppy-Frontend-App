@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://192.168.151.205:8000/api'; // ← CHANGE THIS to your real IP:port
+const API_URL = 'http://myworkapi.com/yoris/api'; // 
 
 const api = axios.create({
   baseURL: API_URL,
